@@ -12,6 +12,12 @@
 	    <artifactId>selenium-java</artifactId>
 	    <version>4.43.0</version>
 	</dependency>
+
+	  <dependency>
+	    <groupId>org.junit.jupiter</groupId>
+	    <artifactId>junit-jupiter</artifactId>
+	    <version>6.0.3</version> <!-- Current stable version as of 2026 -->
+	</dependency>
   
   </dependencies>
 </project>
