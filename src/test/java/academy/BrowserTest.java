@@ -1,7 +1,6 @@
 package academy;
 
-//import static org.junit.jupiter.api.Assertions.assertTrue;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -20,7 +19,7 @@ public class BrowserTest {
 		options.addArguments("--no-sandbox");
 		options.addArguments("--disable-dev-shm-usage");
 		
-		WebDriver driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver(options);
 		driver.get("https://ashwiniacademy.azurewebsites.net/webapp/");
 		String text = driver.findElement(By.cssSelector("h1")).getText();
 		System.out.println(text);
