@@ -1,7 +1,7 @@
 package academy;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
+//import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.Assert.assertTrue;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
